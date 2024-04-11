@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<body>
+
+<p id="resultado"></p>
+<script>
+    const numPi = 3.1416;
+    let radio = parseInt(prompt("Ingrese el radio de la circunferencia:"));
+    let alturaTriangulo = parseInt(prompt("Ingrese la altura del Triangulo:"));
+    let ancho = parseInt(prompt("Ingrese el ancho del Triangulo:"));
+
+    let areaSemiCirculo = (0.5 * numPi * radio**2);
+
+    let areaTriangulo = (ancho * alturaTriangulo);
+
+    let areaTotal = areaSemiCirculo + areaTriangulo;
+
+    window.alert("El area total de la figura es: " + areaTotal);
+</script>
+
+</body>
+</html>
